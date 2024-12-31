@@ -1,30 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Happy New Year 2025</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year 2025</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1 id="greeting">Happy New Year</h1>
-        <h2>
-          <span>🎉</span> WELCOME <span id="year">2025!</span>
-        </h2>
-      </div>
-      
-    <div id="fireworks-container"></div>
-    <div id="countdown">
-      <div class="time-box"><span id="days">00</span> Days</div>
-      <div class="time-box"><span id="hours">00</span> Hours</div>
-      <div class="time-box"><span id="minutes">00</span> Minutes</div>
-      <div class="time-box"><span id="seconds">00</span> Seconds</div>
-    </div>
-    <audio autoplay loop>
-        <source src="firework-music.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-      <script src="script.js"></script>
-    </body>
-    </html>
+    <h1>🎉 Happy New Year 2025! 🎉</h1>
+    <p>Enter your name to receive a personalized greeting:</p>
+    <input type="text" id="nameInput" placeholder="Enter your name" />
+    <button onclick="showGreeting()">Get Greeting</button>
+    <div class="message" id="greetingMessage"></div>
+    <script src="js/script.js"></script>
+</body>
+</html>
